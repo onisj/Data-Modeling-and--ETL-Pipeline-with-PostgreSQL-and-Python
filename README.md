@@ -13,7 +13,6 @@ The successful creation and transformation of my data unlock a myriad of possibi
 I initiate the project by connecting to the default database, creating a new database named 'sparkifydb' with UTF8 encoding, and establishing connections to the newly created database.
 
 ```python
-Copy code
 def create_database():
     # Database creation logic...
 ```
@@ -22,7 +21,6 @@ def create_database():
 The heart of my project revolves around the definition, manipulation, and utilization of tables. I orchestrate the creation and dropping of tables, ensuring the integrity and coherence of my database schema.
 
 ```python
-Copy code
 def drop_tables(cur, conn):
     # Table dropping logic...
 
@@ -34,7 +32,6 @@ def create_tables(cur, conn):
 The main function serves as my orchestrator, executing the entire ETL process. It creates the sparkifydb database, drops existing tables, and subsequently creates new tables.
 
 ```python
-Copy code
 def main():
     # Main execution logic...
 
